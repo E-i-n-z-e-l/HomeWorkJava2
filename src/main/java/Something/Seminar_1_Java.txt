@@ -1,0 +1,136 @@
+Задание №1.
+
+Написать программу, которая запросит пользователя ввести <Имя> в консоли. Получит введенную строку и выведет в консоль сообщение "Привет <Имя>!"
+
+
+public class Practical_1 {
+    public static void main(String[] args) {
+        ex1();
+        ex2();
+    }
+
+    private static void ex2() {
+
+    }
+
+    private static void ex1() {
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("Введите ваше имя: ");
+        String name = myScanner.nextLine();
+        System.out.printf("Привет, %s%n", name);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
