@@ -18,7 +18,7 @@ import java.util.Arrays;
 
 public class TaskJava1 {
     public static void main(String[] args) {
-        String stringToFilter = "\"name:Ivanov\" \"country:Russia\" \"city:null\" \"age:null\"";
+        String stringToFilter = "\"name:Ivanov\" \"country:null\" \"city:null\" \"age:null\"";
         String[] stringToFilterArrayNew = stringToFilter.split("\"?\\s+\"?|:\"?");
         System.out.println(Arrays.toString(stringToFilterArrayNew));
         //if (stringToFilterArrayNew.length > 0) { // проверяем, что массив не пустой
