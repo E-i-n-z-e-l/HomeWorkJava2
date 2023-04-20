@@ -33,7 +33,7 @@ public class TaskJava1 {
                     if (filterBuilder.length() > 0) {
                             filterBuilder.append(" and ");
                     }
-                    filterBuilder.append(key).append(" = '").append(value).append("'");
+                    filterBuilder.append(key).append(" = '").append(value).append("'\"");
                 }
             }
         }
